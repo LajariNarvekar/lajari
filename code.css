@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    flex: 0 0 auto; /* Prevent image from growing or shrinking */
+    margin-right: 20px; /* Add space between image and text */
+}
+
+.image img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text {
+    flex: 1; /* Allow text to grow and fill remaining space */
+}
